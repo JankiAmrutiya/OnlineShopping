@@ -1,7 +1,7 @@
 {
   "name": "Shopping-App",
   "version": "0.0.1",
-  "description": "Pricing component with flux",
+  "description": "",
   "main": "js/app.js",
   "dependencies": {
     "flux": "^2.0.0",
@@ -21,11 +21,11 @@
   "scripts": {
     "start": "watchify -o js/bundle.js -v -d .",
     "build": "browserify . | uglifyjs -cm > js/bundle.min.js",
-    "test": "jest"
+    "test": ""
   },
   "author": "",
   "contributors": [
-    "vichu1988"
+    ""
   ],
   "browserify": {
     "transform": [
